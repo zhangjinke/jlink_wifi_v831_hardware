@@ -1,0 +1,6 @@
+1. 使用PhoenixCard将tina_v459-jlink_uart0.img烧写到SD Nand；
+2. 长按KEY键，STATE灯快闪时，J-Link WiFi将进入AP模式，SSID为J-Link_XXXXXXXX，密码为jlink wifi；
+3. 使用ssh工具连接J-Link WiFi，IP为192.168.1.1，用户名root，密码jlink；
+4. 将JLink_Linux_V782c_arm.tar.gz拷贝到/mnt/UDISK/；
+5. cd /mnt/UDISK/进入目录，并使用tar xf JLink_Linux_V782c_arm.tar.gz解压，解压后可删除压缩包；
+6. 浏览器访问192.168.1.1/m，配置MAC地址；
