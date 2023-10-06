@@ -1,0 +1,5 @@
+1. 使用ssh工具连接到J-Link WiFi，用户名root，密码jlink；
+2. 将misc-upgrade文件夹上传到/mnt/UDISK/；
+3. cd /mnt/UDISK/misc-upgrade进入目录；
+4. ota-burnuboot boot_package.fex #升级uboot+设备树（必须保证升级过程中不掉电）；
+5. export partitions=misc:$(basename $(readlink /dev/by-name/misc)); aw_upgrade_normal.sh -f -n -l /mnt/UDISK/misc-upgrade #升级系统（若升级过程中掉电，上电后自动继续升级）；
