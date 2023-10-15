@@ -13,6 +13,9 @@
 ## WiFi STA
     长按KEY键，将模式切换到STATE灯慢闪，此模式J-Link WiFi将通过WEB配置的SSID和密码连接AP。
     未连接时，ERROR灯闪烁，连接成功后，ERROR灯熄灭；
-    当前仅支持通过DHCP获取IP，可在AP设备列表中查看J-Link WiFi的IP地址，也可将WiFi WiFi切换到AP模式，并在WEB中查看之前获取到的IP地址。
+    当前仅支持通过DHCP获取IP。IP查看方法：
+    1. 通过Tools内的C2000 Software搜索设备；
+    2. 在AP设备列表中查看J-Link WiFi的IP地址；
+    3. 将J-Link WiFi切换到AP模式，并在WEB中查看之前获取到的IP地址。
 ## WiFi AP
     长按KEY键，将模式切换到STATE灯快闪，此模式J-Link WiFi将作为AP，SSID为J-Link_XXXXXXXX，密码为jlink，J-Link WiFi自身IP为192.168.1.1。
