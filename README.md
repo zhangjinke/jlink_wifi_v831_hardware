@@ -1,16 +1,22 @@
 # 简介
 * 支持Type C有线及WiFi STA、WiFi AP无线使用；
-* J-Link：OB-STM32F072-CortexM；
+* J-Link：J-Link OB-STM32F072-CortexM、J-Link OB-STM32F072-128KB-CortexM；
 * 主控：全志V831；
 * WiFi+BT：XR829（BT暂未使用）；
 * PMU：AXP2101；
 * 输出支持短路保护；
-# J-Link参数
-* 内核支持：Cortex-M；
+# J-Link OB-STM32F072-CortexM参数
+* 内核支持：Cortex-M（不支持ARMv8-M）；
 * 接口支持：SWD、VCOM；
 * SWD速度：2MHz；
 * VCOM波特率：2400bps~1Mbps；
 * 支持自动升级。
+# J-Link OB-STM32F072-128KB-CortexM参数
+* 内核支持：Cortex-M（支持ARMv8-M）；
+* 接口支持：SWD、VCOM；
+* SWD速度：2MHz；
+* VCOM波特率：2400bps~1Mbps；
+* 不支持自动升级。
 # 使用方法
 ## 开关机
     长按POWER按键。
