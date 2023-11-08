@@ -30,7 +30,7 @@
     2. 在AP设备列表中查看J-Link WiFi的IP地址；
     3. 将J-Link WiFi切换到AP模式，并在WEB中查看之前获取到的IP地址。
 ## WiFi AP
-    长按KEY键，将模式切换到STATE灯快闪，此模式J-Link WiFi将作为AP，SSID为J-Link_XXXXXXXX，密码为jlink，J-Link WiFi自身IP为192.168.1.1。
+    长按KEY键，将模式切换到STATE灯快闪，此模式J-Link WiFi将作为AP，SSID为J-Link_XXXXXXXX，密码为jlink wifi，J-Link WiFi自身IP为192.168.1.1。
 ## WEB
 ### 主页面
     使用浏览器访问J-Link WiFi的IP，可进入主页面。在主页面左上角可查看电池剩余电量、电池电压、充电状态、STA模式时的WiFi RSSI、J-Link S/N。主页面右上角可查看J-Link WiFi型号与软件版本号。
